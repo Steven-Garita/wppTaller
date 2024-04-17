@@ -1,0 +1,80 @@
+C:\Users\Pablo\source\repos\wpp_Taller\bin\Debug\wpp_Taller.exe.config
+C:\Users\Pablo\source\repos\wpp_Taller\bin\Debug\wpp_Taller.exe
+C:\Users\Pablo\source\repos\wpp_Taller\bin\Debug\wpp_Taller.pdb
+C:\Users\Pablo\source\repos\wpp_Taller\bin\Debug\MySql.Data.dll
+C:\Users\Pablo\source\repos\wpp_Taller\bin\Debug\MySql.Data.xml
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\wpp_Taller.csproj.SuggestedBindingRedirects.cache
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\View\LoginView.baml
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\Pages\pAddInventory.g.cs
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\Pages\pCarPending.g.cs
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\Pages\pClients.g.cs
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\Pages\pInventory.g.cs
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\Pages\pUsers.g.cs
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\View\MainWindow.g.cs
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\View\LoginView.g.cs
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\App.g.cs
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\wpp_Taller_MarkupCompile.cache
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\wpp_Taller_MarkupCompile.lref
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\Pages\pAddInventory.baml
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\Pages\pCarPending.baml
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\Pages\pClients.baml
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\Pages\pInventory.baml
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\Pages\pUsers.baml
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\View\MainWindow.baml
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\wpp_Taller.g.resources
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\wpp_Taller.Properties.Resources.resources
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\wpp_Taller.csproj.GenerateResource.cache
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\wpp_Taller.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\wpp_Taller.csproj.CopyComplete
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\wpp_Taller.exe
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\wpp_Taller.pdb
+C:\Users\Pablo\source\repos\wpp_Taller\obj\Debug\wpp_Taller.csproj.AssemblyReference.cache
+G:\Mi unidad\wpp_Taller\bin\Debug\wpp_Taller.exe.config
+G:\Mi unidad\wpp_Taller\bin\Debug\wpp_Taller.exe
+G:\Mi unidad\wpp_Taller\bin\Debug\wpp_Taller.pdb
+G:\Mi unidad\wpp_Taller\obj\Debug\View\LoginView.baml
+G:\Mi unidad\wpp_Taller\obj\Debug\Pages\pCarPending.g.cs
+G:\Mi unidad\wpp_Taller\obj\Debug\Pages\pCarReady.g.cs
+G:\Mi unidad\wpp_Taller\obj\Debug\Pages\pClients.g.cs
+G:\Mi unidad\wpp_Taller\obj\Debug\Pages\pInventory.g.cs
+G:\Mi unidad\wpp_Taller\obj\Debug\Pages\pInvetorySoldReport.g.cs
+G:\Mi unidad\wpp_Taller\obj\Debug\Pages\pReports.g.cs
+G:\Mi unidad\wpp_Taller\obj\Debug\Pages\pUsers.g.cs
+G:\Mi unidad\wpp_Taller\obj\Debug\Pages\pCarsReparedReport.g.cs
+G:\Mi unidad\wpp_Taller\obj\Debug\View\MainWindow.g.cs
+G:\Mi unidad\wpp_Taller\obj\Debug\View\LoginView.g.cs
+G:\Mi unidad\wpp_Taller\obj\Debug\View\ModalView.g.cs
+G:\Mi unidad\wpp_Taller\obj\Debug\View\ReportCarsPDF.g.cs
+G:\Mi unidad\wpp_Taller\obj\Debug\App.g.cs
+G:\Mi unidad\wpp_Taller\obj\Debug\wpp_Taller_MarkupCompile.cache
+G:\Mi unidad\wpp_Taller\obj\Debug\wpp_Taller_MarkupCompile.lref
+G:\Mi unidad\wpp_Taller\obj\Debug\App.baml
+G:\Mi unidad\wpp_Taller\obj\Debug\Pages\pCarPending.baml
+G:\Mi unidad\wpp_Taller\obj\Debug\Pages\pCarReady.baml
+G:\Mi unidad\wpp_Taller\obj\Debug\Pages\pClients.baml
+G:\Mi unidad\wpp_Taller\obj\Debug\Pages\pInventory.baml
+G:\Mi unidad\wpp_Taller\obj\Debug\Pages\pInvetorySoldReport.baml
+G:\Mi unidad\wpp_Taller\obj\Debug\Pages\pReports.baml
+G:\Mi unidad\wpp_Taller\obj\Debug\Pages\pUsers.baml
+G:\Mi unidad\wpp_Taller\obj\Debug\Pages\pCarsReparedReport.baml
+G:\Mi unidad\wpp_Taller\obj\Debug\View\MainWindow.baml
+G:\Mi unidad\wpp_Taller\obj\Debug\View\ModalView.baml
+G:\Mi unidad\wpp_Taller\obj\Debug\View\ReportCarsPDF.baml
+G:\Mi unidad\wpp_Taller\obj\Debug\wpp_Taller.g.resources
+G:\Mi unidad\wpp_Taller\obj\Debug\wpp_Taller.Properties.Resources.resources
+G:\Mi unidad\wpp_Taller\obj\Debug\wpp_Taller.csproj.GenerateResource.cache
+G:\Mi unidad\wpp_Taller\obj\Debug\wpp_Taller.csproj.CoreCompileInputs.cache
+G:\Mi unidad\wpp_Taller\obj\Debug\wpp_Taller.exe
+G:\Mi unidad\wpp_Taller\obj\Debug\wpp_Taller.pdb
+G:\Mi unidad\wpp_Taller\obj\Debug\wpp_Taller.csproj.AssemblyReference.cache
+G:\Mi unidad\wpp_Taller\bin\Debug\System.Memory.dll
+G:\Mi unidad\wpp_Taller\bin\Debug\System.Numerics.Vectors.dll
+G:\Mi unidad\wpp_Taller\bin\Debug\System.Buffers.dll
+G:\Mi unidad\wpp_Taller\obj\Debug\wpp_Taller.csproj.CopyComplete
+G:\Mi unidad\wpp_Taller\bin\Debug\wpp_Taller.exe.manifest
+G:\Mi unidad\wpp_Taller\bin\Debug\wpp_Taller.application
+G:\Mi unidad\wpp_Taller\obj\Debug\wpp_Taller.exe.manifest
+G:\Mi unidad\wpp_Taller\obj\Debug\wpp_Taller.application
+G:\Mi unidad\wpp_Taller\bin\Debug\MySql.Data.dll
+G:\Mi unidad\wpp_Taller\bin\Debug\System.Threading.Tasks.Extensions.dll
+G:\Mi unidad\wpp_Taller\bin\Debug\MySql.Data.xml

@@ -1,0 +1,42 @@
+﻿<Window x:Class="wpp_Taller.View.ModalView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpp_Taller.View"
+        mc:Ignorable="d"
+        Title="ModalView" Height="256" Width="485" WindowStyle="None" WindowStartupLocation="CenterScreen" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Background="{x:Null}" Foreground="{x:Null}" AllowsTransparency="True" WindowState="Normal">
+    <Border CornerRadius="40" BorderThickness="1" Background="Black" Width="400">
+        <Grid Width="400" Margin="0,0,-2,-1" HorizontalAlignment="Right">
+            <TextBlock Margin="47,16,47,0" TextWrapping="Wrap" Text="Indique los detalles de la venta del inventario" TextAlignment="Center" VerticalAlignment="Top" Height="67" Foreground="White" FontSize="24" FontWeight="Bold"/>
+            <TextBox x:Name="txtPrice" HorizontalAlignment="Left" TextAlignment="Center" Margin="61,137,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="110" BorderBrush="#FF0E0E0E" SelectionBrush="{x:Null}" FontSize="14" Height="25"/>
+            <Button x:Name="btnConfirmPrice" Content="Confirmar" HorizontalAlignment="Left" Margin="68,187,0,0" VerticalAlignment="Top" Width="96" Height="30" FontSize="13" Background="#FF00BB25" BorderBrush="Black" Click="btnConfirmPrice_Click" FontWeight="Bold" Foreground="White">
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Width="95" Height="30"
+                    CornerRadius="8"
+                    Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center"
+                        HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button x:Name="btnCancelPrice" Content="Cancelar" Margin="237,187,68,0" VerticalAlignment="Top" Height="30" BorderBrush="Black" Background="#FFE00000" Click="btnCancelPrice_Click" FontSize="13" FontWeight="Bold" Foreground="White" Width="95">
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Width="95" Height="30"
+                    CornerRadius="8"
+                    Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center"
+                        HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <TextBlock HorizontalAlignment="Left" Margin="56,110,0,0" TextWrapping="Wrap" Text="Precio Por Und" VerticalAlignment="Top" FontSize="17" Foreground="White" FontWeight="Normal" Height="22" Width="120" TextAlignment="Center"/>
+            <TextBox x:Name="txtUnits" TextAlignment="Center" Margin="229,137,61,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" BorderBrush="#FF0E0E0E" SelectionBrush="{x:Null}" FontSize="14" Height="25" Width="110"/>
+            <TextBlock Margin="224,110,56,0" TextWrapping="Wrap" Text="Unds Vendidas" VerticalAlignment="Top" Foreground="White" FontWeight="Normal" Height="22" TextAlignment="Center" FontSize="17"/>
+        </Grid>
+    </Border>
+</Window>
