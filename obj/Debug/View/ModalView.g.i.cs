@@ -98,4 +98,37 @@ namespace wpp_Taller.View {
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Design", "CA1033:InterfaceMethodsShouldBeCallableByChildTypes")]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
-        
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1800:DoNotCastUnnecessarily")]
+        void System.Windows.Markup.IComponentConnector.Connect(int connectionId, object target) {
+            switch (connectionId)
+            {
+            case 1:
+            this.txtPrice = ((System.Windows.Controls.TextBox)(target));
+            return;
+            case 2:
+            this.btnConfirmPrice = ((System.Windows.Controls.Button)(target));
+            
+            #line 13 "..\..\..\View\ModalView.xaml"
+            this.btnConfirmPrice.Click += new System.Windows.RoutedEventHandler(this.btnConfirmPrice_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 3:
+            this.btnCancelPrice = ((System.Windows.Controls.Button)(target));
+            
+            #line 25 "..\..\..\View\ModalView.xaml"
+            this.btnCancelPrice.Click += new System.Windows.RoutedEventHandler(this.btnCancelPrice_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 4:
+            this.txtUnits = ((System.Windows.Controls.TextBox)(target));
+            return;
+            }
+            this._contentLoaded = true;
+        }
+    }
+}
+

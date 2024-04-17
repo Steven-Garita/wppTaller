@@ -88,4 +88,34 @@ namespace wpp_Taller.Pages {
             #line hidden
             
             #line 19 "..\..\..\Pages\pCarsReparedReport.xaml"
-            this.dtgCarsRepared.LoadingRow += new System.EventHandler<System.Windows.Controls.DataGridRowEv
+            this.dtgCarsRepared.LoadingRow += new System.EventHandler<System.Windows.Controls.DataGridRowEventArgs>(this.dtgCarsRepared_LoadingRow);
+            
+            #line default
+            #line hidden
+            return;
+            }
+            this._contentLoaded = true;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Design", "CA1033:InterfaceMethodsShouldBeCallableByChildTypes")]
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1800:DoNotCastUnnecessarily")]
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
+        void System.Windows.Markup.IStyleConnector.Connect(int connectionId, object target) {
+            switch (connectionId)
+            {
+            case 2:
+            
+            #line 31 "..\..\..\Pages\pCarsReparedReport.xaml"
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.btnDetails_Click);
+            
+            #line default
+            #line hidden
+            break;
+            }
+        }
+    }
+}
+

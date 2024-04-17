@@ -34,5 +34,10 @@ namespace wpp_Taller.Pages
         {
             NavigationService?.Navigate(new pInvetorySoldReport());
         }
+
+        private void btnPorforms_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

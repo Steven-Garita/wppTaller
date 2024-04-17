@@ -102,14 +102,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="wpp_Taller.exe" size="668584">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="wpp_Taller.exe" size="682408">
       <assemblyIdentity name="wpp_Taller" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>vWeVfXwg9iDhZCLtVK/6SgbSOo+KsvysgqjePSuABbo=</dsig:DigestValue>
+        <dsig:DigestValue>yXmV9fahf1ouJzwSQ73BdeWRLQPoi2HprJzXl+Jvq6Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -16,7 +16,7 @@
             </LinearGradientBrush>
         </Grid.Background>
         <Label Content="REPORTES" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" Height="80" Width="306" Foreground="Black" FontSize="55" Background="#00000000" FontWeight="Bold" FontFamily="Lucida Fax"/>
-        <Button x:Name="btnCarsRepared" Cursor="Hand" Margin="680,362,240,0" VerticalAlignment="Top" Height="120" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btnCarsRepared_Click">
+        <Button x:Name="btnCarsRepared" Cursor="Hand" Margin="680,0,240,0" VerticalAlignment="Center" Height="120" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btnCarsRepared_Click" Width="125">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border 
@@ -32,8 +32,8 @@
 
             <Image Height="95" Width="95" Source="/Images/cars ready.png"/>
         </Button>
-        <TextBlock Margin="593,282,134,0" TextWrapping="Wrap" Text="Autos Reparados" VerticalAlignment="Top" FontSize="35" Foreground="White" FontWeight="Normal" Height="59" TextAlignment="Center" Width="308"/>
-        <Button x:Name="btnInventorySold" Cursor="Hand" Margin="240,362,669,0" VerticalAlignment="Top" Height="120" Background="{x:Null}" Foreground="{x:Null}" BorderBrush="{x:Null}" Click="btnInventorySold_Click">
+        <TextBlock Margin="593,243,134,0" TextWrapping="Wrap" Text="Autos Reparados" VerticalAlignment="Top" FontSize="35" Foreground="White" FontWeight="Normal" Height="59" TextAlignment="Center" Width="308"/>
+        <Button x:Name="btnInventorySold" Cursor="Hand" Margin="240,0,669,0" VerticalAlignment="Center" Height="120" Background="{x:Null}" Foreground="{x:Null}" BorderBrush="{x:Null}" Click="btnInventorySold_Click" Width="125">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border 
@@ -48,6 +48,22 @@
             </Button.Template>
             <Image Height="95" Width="95" Source="/Images/inventory.png"/>
         </Button>
-        <TextBlock Margin="135,282,592,0" TextWrapping="Wrap" Text="Inventario Vendido" VerticalAlignment="Top" FontSize="35" Foreground="White" FontWeight="Normal" Height="59" TextAlignment="Center"/>
+        <TextBlock Margin="135,243,592,0" TextWrapping="Wrap" Text="Inventario Vendido" VerticalAlignment="Top" FontSize="35" Foreground="White" FontWeight="Normal" Height="59" TextAlignment="Center"/>
+        <TextBlock Margin="410,513,410,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="35" Foreground="White" FontWeight="Normal" Height="59" TextAlignment="Center"><Run Text="Proforma"/><Run Language="es-cr" Text="s"/></TextBlock>
+        <Button x:Name="btnPorforms" Margin="455,576,455,0" VerticalAlignment="Top" Height="120" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btnPorforms_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border 
+            Width="120" Height="114"
+            Background="{TemplateBinding Background}">
+                        <ContentPresenter 
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+                        </ContentPresenter>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+            <Image Height="95" Width="95" Source="/Images/proform.png" />
+        </Button>
     </Grid>
 </Page>

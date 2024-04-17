@@ -106,4 +106,116 @@ namespace wpp_Taller.Pages {
         
         
         #line 90 "..\..\..\Pages\pUsers.xaml"
-      
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.PasswordBox pbPasswordConfirm;
+        
+        #line default
+        #line hidden
+        
+        private bool _contentLoaded;
+        
+        /// <summary>
+        /// InitializeComponent
+        /// </summary>
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
+        public void InitializeComponent() {
+            if (_contentLoaded) {
+                return;
+            }
+            _contentLoaded = true;
+            System.Uri resourceLocater = new System.Uri("/wpp_Taller;component/pages/pusers.xaml", System.UriKind.Relative);
+            
+            #line 1 "..\..\..\Pages\pUsers.xaml"
+            System.Windows.Application.LoadComponent(this, resourceLocater);
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Design", "CA1033:InterfaceMethodsShouldBeCallableByChildTypes")]
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1800:DoNotCastUnnecessarily")]
+        void System.Windows.Markup.IComponentConnector.Connect(int connectionId, object target) {
+            switch (connectionId)
+            {
+            case 1:
+            this.dtgUsers = ((System.Windows.Controls.DataGrid)(target));
+            
+            #line 18 "..\..\..\Pages\pUsers.xaml"
+            this.dtgUsers.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.dtgUsers_SelectionChanged);
+            
+            #line default
+            #line hidden
+            
+            #line 18 "..\..\..\Pages\pUsers.xaml"
+            this.dtgUsers.LoadingRow += new System.EventHandler<System.Windows.Controls.DataGridRowEventArgs>(this.dtgUsers_LoadingRow);
+            
+            #line default
+            #line hidden
+            return;
+            case 3:
+            this.txtUser = ((System.Windows.Controls.TextBlock)(target));
+            return;
+            case 4:
+            this.txbUser = ((System.Windows.Controls.TextBox)(target));
+            return;
+            case 5:
+            this.txbNewPassword = ((System.Windows.Controls.TextBlock)(target));
+            return;
+            case 6:
+            this.txbConfirmPs = ((System.Windows.Controls.TextBlock)(target));
+            return;
+            case 7:
+            this.btnSaveUser = ((System.Windows.Controls.Button)(target));
+            
+            #line 65 "..\..\..\Pages\pUsers.xaml"
+            this.btnSaveUser.Click += new System.Windows.RoutedEventHandler(this.btnSaveUser_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 8:
+            this.btnCancel = ((System.Windows.Controls.Button)(target));
+            
+            #line 77 "..\..\..\Pages\pUsers.xaml"
+            this.btnCancel.Click += new System.Windows.RoutedEventHandler(this.btnCancel_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 9:
+            this.pbPassword = ((System.Windows.Controls.PasswordBox)(target));
+            return;
+            case 10:
+            this.pbPasswordConfirm = ((System.Windows.Controls.PasswordBox)(target));
+            return;
+            }
+            this._contentLoaded = true;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Design", "CA1033:InterfaceMethodsShouldBeCallableByChildTypes")]
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1800:DoNotCastUnnecessarily")]
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
+        void System.Windows.Markup.IStyleConnector.Connect(int connectionId, object target) {
+            switch (connectionId)
+            {
+            case 2:
+            
+            #line 24 "..\..\..\Pages\pUsers.xaml"
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.btnDeleteUser_Click);
+            
+            #line default
+            #line hidden
+            break;
+            }
+        }
+    }
+}
+

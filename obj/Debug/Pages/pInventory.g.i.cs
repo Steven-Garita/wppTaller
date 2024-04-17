@@ -105,4 +105,128 @@ namespace wpp_Taller.Pages {
         #line hidden
         
         
-        #line 102 ".
+        #line 102 "..\..\..\Pages\pInventory.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button btnCancel;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 115 "..\..\..\Pages\pInventory.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.TextBox txtUnits;
+        
+        #line default
+        #line hidden
+        
+        private bool _contentLoaded;
+        
+        /// <summary>
+        /// InitializeComponent
+        /// </summary>
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
+        public void InitializeComponent() {
+            if (_contentLoaded) {
+                return;
+            }
+            _contentLoaded = true;
+            System.Uri resourceLocater = new System.Uri("/wpp_Taller;component/pages/pinventory.xaml", System.UriKind.Relative);
+            
+            #line 1 "..\..\..\Pages\pInventory.xaml"
+            System.Windows.Application.LoadComponent(this, resourceLocater);
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Design", "CA1033:InterfaceMethodsShouldBeCallableByChildTypes")]
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1800:DoNotCastUnnecessarily")]
+        void System.Windows.Markup.IComponentConnector.Connect(int connectionId, object target) {
+            switch (connectionId)
+            {
+            case 1:
+            this.dtgInventory = ((System.Windows.Controls.DataGrid)(target));
+            
+            #line 18 "..\..\..\Pages\pInventory.xaml"
+            this.dtgInventory.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.DataGrid_SelectionChanged);
+            
+            #line default
+            #line hidden
+            
+            #line 18 "..\..\..\Pages\pInventory.xaml"
+            this.dtgInventory.LoadingRow += new System.EventHandler<System.Windows.Controls.DataGridRowEventArgs>(this.dtgInventory_LoadingRow);
+            
+            #line default
+            #line hidden
+            return;
+            case 3:
+            this.txtSpare = ((System.Windows.Controls.TextBox)(target));
+            return;
+            case 4:
+            this.txtState = ((System.Windows.Controls.TextBox)(target));
+            return;
+            case 5:
+            this.txtModel = ((System.Windows.Controls.TextBox)(target));
+            return;
+            case 6:
+            this.txtBrand = ((System.Windows.Controls.TextBox)(target));
+            return;
+            case 7:
+            this.txtPrice = ((System.Windows.Controls.TextBox)(target));
+            return;
+            case 8:
+            this.txtOther = ((System.Windows.Controls.TextBox)(target));
+            return;
+            case 9:
+            this.btnSaveInventory = ((System.Windows.Controls.Button)(target));
+            
+            #line 90 "..\..\..\Pages\pInventory.xaml"
+            this.btnSaveInventory.Click += new System.Windows.RoutedEventHandler(this.btnSaveInventory_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 10:
+            this.btnCancel = ((System.Windows.Controls.Button)(target));
+            
+            #line 102 "..\..\..\Pages\pInventory.xaml"
+            this.btnCancel.Click += new System.Windows.RoutedEventHandler(this.btnCancel_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 11:
+            this.txtUnits = ((System.Windows.Controls.TextBox)(target));
+            return;
+            }
+            this._contentLoaded = true;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Design", "CA1033:InterfaceMethodsShouldBeCallableByChildTypes")]
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1800:DoNotCastUnnecessarily")]
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
+        void System.Windows.Markup.IStyleConnector.Connect(int connectionId, object target) {
+            switch (connectionId)
+            {
+            case 2:
+            
+            #line 30 "..\..\..\Pages\pInventory.xaml"
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.btnSold_Click);
+            
+            #line default
+            #line hidden
+            break;
+            }
+        }
+    }
+}
+

@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Pages",
+    "\\View"
   ],
-  "PreviewInSolutionExplorer": false
+  "SelectedNode": "\\Pages\\pInvetorySoldReport.xaml",
+  "PreviewInSolutionExplorer": true
 }
