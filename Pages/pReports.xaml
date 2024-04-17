@@ -50,7 +50,7 @@
         </Button>
         <TextBlock Margin="135,243,592,0" TextWrapping="Wrap" Text="Inventario Vendido" VerticalAlignment="Top" FontSize="35" Foreground="White" FontWeight="Normal" Height="59" TextAlignment="Center"/>
         <TextBlock Margin="410,513,410,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="35" Foreground="White" FontWeight="Normal" Height="59" TextAlignment="Center"><Run Text="Proforma"/><Run Language="es-cr" Text="s"/></TextBlock>
-        <Button x:Name="btnPorforms" Margin="455,576,455,0" VerticalAlignment="Top" Height="120" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btnPorforms_Click">
+        <Button Cursor="Hand" x:Name="btnPorforms" Margin="455,576,455,0" VerticalAlignment="Top" Height="120" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btnPorforms_Click">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border 

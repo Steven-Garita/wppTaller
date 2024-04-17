@@ -55,7 +55,6 @@ namespace wpp_Taller.Model
         public decimal precio15 { get; set; }
         public decimal totalRepuestos { get; set; }
         public decimal precioManoObra { get; set; }
-        public decimal TotalGeneral { get; set; }
         public string cliente { get; set; }
     }
 }
