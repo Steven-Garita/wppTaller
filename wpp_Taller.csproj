@@ -91,6 +91,7 @@
     <Compile Include="Model\clsCars.cs" />
     <Compile Include="Model\clsClient.cs" />
     <Compile Include="Model\clsInventory.cs" />
+    <Compile Include="Model\clsProforms.cs" />
     <Compile Include="Model\clsUsers.cs" />
     <Compile Include="Pages\pCarPending.xaml.cs">
       <DependentUpon>pCarPending.xaml</DependentUpon>
@@ -106,6 +107,9 @@
     </Compile>
     <Compile Include="Pages\pInvetorySoldReport.xaml.cs">
       <DependentUpon>pInvetorySoldReport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\pProforms.xaml.cs">
+      <DependentUpon>pProforms.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\pReports.xaml.cs">
       <DependentUpon>pReports.xaml</DependentUpon>
@@ -142,6 +146,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\pInvetorySoldReport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\pProforms.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

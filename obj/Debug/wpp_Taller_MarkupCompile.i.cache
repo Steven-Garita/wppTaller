@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\garis\Documents\Taller\wpp_Taller\obj\Debug\
+C:\Users\Estadistica\Taller\wppTaller\obj\Debug\
 wpp_Taller
 none
 false
 DEBUG;TRACE
-C:\Users\garis\Documents\Taller\wpp_Taller\App.xaml
-12-2096400085
+C:\Users\Estadistica\Taller\wppTaller\App.xaml
+13-1136652693
 
-22-102283811
-14-1701011695
-Pages\pCarPending.xaml;Pages\pCarReady.xaml;Pages\pClients.xaml;Pages\pInventory.xaml;Pages\pInvetorySoldReport.xaml;Pages\pReports.xaml;Pages\pUsers.xaml;Pages\pCarsReparedReport.xaml;View\MainWindow.xaml;View\LoginView.xaml;View\ModalView.xaml;View\ReportCarsPDF.xaml;
+24-671158422
+141186207057
+Pages\pCarPending.xaml;Pages\pCarReady.xaml;Pages\pClients.xaml;Pages\pInventory.xaml;Pages\pInvetorySoldReport.xaml;Pages\pProforms.xaml;Pages\pReports.xaml;Pages\pUsers.xaml;Pages\pCarsReparedReport.xaml;View\MainWindow.xaml;View\LoginView.xaml;View\ModalView.xaml;View\ReportCarsPDF.xaml;
 
-False
+True
 
