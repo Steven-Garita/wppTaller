@@ -176,3 +176,5 @@ C:\Users\Estadistica\Taller\wppTaller\obj\Debug\wpp_Taller.csproj.CoreCompileInp
 C:\Users\Estadistica\Taller\wppTaller\obj\Debug\wpp_Taller.exe.manifest
 C:\Users\Estadistica\Taller\wppTaller\obj\Debug\wpp_Taller.application
 C:\Users\Estadistica\Taller\wppTaller\obj\Debug\wpp_Taller.csproj.CopyComplete
+C:\Users\garis\Documents\Taller\wpp_Taller\obj\Debug\Pages\pProforms.g.cs
+C:\Users\garis\Documents\Taller\wpp_Taller\obj\Debug\Pages\pProforms.baml

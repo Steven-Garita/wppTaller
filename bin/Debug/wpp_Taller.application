@@ -7,14 +7,14 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="wpp_Taller.exe.manifest" size="5599">
+    <dependentAssembly dependencyType="install" codebase="wpp_Taller.exe.manifest" size="6991">
       <assemblyIdentity name="wpp_Taller.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>c/VST7z0RtckhnuD38o1TtTvGzrz0gke1+m64tGYq6M=</dsig:DigestValue>
+        <dsig:DigestValue>ar0KJFiyTQx+qdjLBwzS0I2hVbSgLZvMb06PduRC/XU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

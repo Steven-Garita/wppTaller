@@ -9,6 +9,7 @@ namespace wpp_Taller.Model
     internal class clsProforms
     {
         public clsProforms() { }
+        public int idProforma { get; set; }
         public string nombreCliente { get; set; }
         public string telefono { get; set; }
         public string marcaAuto { get; set; }

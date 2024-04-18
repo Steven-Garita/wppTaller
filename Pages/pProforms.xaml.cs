@@ -25,6 +25,8 @@ namespace wpp_Taller.Pages
     /// </summary>
     public partial class pProforms : Page
     {
+        clsProforms Proforms = new clsProforms();
+
         public pProforms()
         {
             InitializeComponent();
@@ -52,19 +54,19 @@ namespace wpp_Taller.Pages
             conn.Close();
         }
 
-        private void btnDetails_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void btnViewProform_Click(object sender, RoutedEventArgs e)
         {
-
+            ReportProfromPDF reportProformPDF = new ReportProfromPDF(Proforms.idProforma);
+            reportProformPDF.showDialog();
         }
 
         private void dtgProforms_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            
+            if (dtgProforms.SelectedItem != null)
+            {
+                DataRowView selectedRow = (DataRowView)dtgProforms.SelectedItem;
+                Proforms.idProforma = Convert.ToInt32(selectedRow[0].ToString());
+            }
         }
 
         private void dtgProforms_LoadingRow(object sender, DataGridRowEventArgs e)

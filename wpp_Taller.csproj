@@ -129,6 +129,9 @@
     <Compile Include="View\ReportCarsPDF.xaml.cs">
       <DependentUpon>ReportCarsPDF.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\ReportProfromPDF.xaml.cs">
+      <DependentUpon>ReportProfromPDF.xaml</DependentUpon>
+    </Compile>
     <Page Include="Pages\pCarPending.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -186,6 +189,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\ReportCarsPDF.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ReportProfromPDF.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

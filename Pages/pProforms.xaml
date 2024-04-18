@@ -23,7 +23,7 @@
                 <DataGridTextColumn Binding="{Binding nombreCliente}" Header=" Cliente" Width="200" MinWidth="200"/>
                 <DataGridTextColumn Binding="{Binding auto}" Header="  Auto" Width="200" MinWidth="200"/>
                 <DataGridTextColumn Binding="{Binding telefono}" Header="  Télefono" Width="150" MinWidth="150"/>
-                <DataGridTextColumn Binding="{Binding fecha}" Header="  Fecha" Width="150" MinWidth="150"/>
+                <DataGridTextColumn Binding="{Binding fechaProforma}" Header="  Fecha" Width="150" MinWidth="150"/>
 
                 <DataGridTemplateColumn Header="  Detalles" Width="80" MinWidth="80">
                     <DataGridTemplateColumn.CellTemplate>
@@ -65,7 +65,7 @@
                 </Style>
             </DataGrid.ColumnHeaderStyle>
         </DataGrid>
-        <Rectangle HorizontalAlignment="Left" Height="601" Margin="-1,157,0,0" Stroke="Black" VerticalAlignment="Top" Width="17" Fill="Black"/>
+        <Rectangle HorizontalAlignment="Left" Height="601" Margin="2,157,0,0" Stroke="Black" VerticalAlignment="Top" Width="17" Fill="Black"/>
 
     </Grid>
 </Page>

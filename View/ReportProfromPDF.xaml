@@ -1,0 +1,102 @@
+﻿<Window x:Class="wpp_Taller.View.ReportProfromPDF"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpp_Taller.View"
+        mc:Ignorable="d"
+        Title="ReportProfromPDF" Height="650" Width="500" WindowStyle="None" ResizeMode="CanResize" WindowStartupLocation="CenterScreen" AllowsTransparency="True" WindowState="Normal" SizeToContent="Manual">
+    <StackPanel>
+        <Grid x:Name="grdReport" Height="620">
+            <Image HorizontalAlignment="Left" Height="70" Margin="18,10,0,0" VerticalAlignment="Top" Width="201" Source="/Images/Autotronica.png"/>
+            <TextBlock HorizontalAlignment="Left" Margin="226,5,0,0" TextWrapping="Wrap" Text="Nombre del Emisor :" VerticalAlignment="Top" FontSize="10" FontWeight="Bold" Height="16" Width="103"/>
+            <TextBlock HorizontalAlignment="Left" Margin="226,24,0,0" TextWrapping="Wrap" Text="Dirección :" VerticalAlignment="Top" FontSize="10" FontWeight="Bold" Height="14" Width="56"/>
+            <TextBlock HorizontalAlignment="Center" Margin="0,54,0,0" TextWrapping="Wrap" Text="Teléfono :" VerticalAlignment="Top" FontSize="10" FontWeight="Bold" Height="14" Width="48"/>
+            <TextBlock HorizontalAlignment="Left" Margin="326,5,0,0" TextWrapping="Wrap" Text="Autotrónica Del Sur" VerticalAlignment="Top" FontSize="10" FontWeight="Normal" Height="16" Width="103"/>
+            <TextBlock Margin="278,24,26,0" TextWrapping="Wrap" Text="Barrio Santa Lucía de pavones, contiguo a soda y piscinas Eli" VerticalAlignment="Top" FontSize="10" FontWeight="Normal" Height="29"/>
+            <TextBlock HorizontalAlignment="Left" Margin="278,54,0,0" TextWrapping="Wrap" Text="2100 - 6313" VerticalAlignment="Top" FontSize="10" FontWeight="Normal" Height="12" Width="64"/>
+            <TextBlock HorizontalAlignment="Center" Margin="0,80,0,0" TextWrapping="Wrap" Text="DETALLES DEL CLIENTE" VerticalAlignment="Top" FontWeight="Bold" Height="19" Width="134" TextAlignment="Center" FontSize="11"/>
+            <TextBlock HorizontalAlignment="Left" Margin="25,104,0,0" TextWrapping="Wrap" Text="Cliente :" VerticalAlignment="Top" FontSize="10" FontWeight="Bold" Height="18" Width="39"/>
+            <TextBlock HorizontalAlignment="Left" Margin="25,126,0,0" TextWrapping="Wrap" Text="Marca Auto :" VerticalAlignment="Top" FontSize="10" FontWeight="Bold" Height="16" Width="63"/>
+            <TextBlock HorizontalAlignment="Left" Margin="25,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="10" FontWeight="Bold" Height="17" Width="86"><Run Text="Fecha "/><Run Language="es-cr" Text="Proforma "/><Run Text=":"/></TextBlock>
+            <TextBlock x:Name="txbClient" HorizontalAlignment="Left" Margin="110,103,0,0" TextWrapping="Wrap" Text="Steven Garita Morales" VerticalAlignment="Top" Width="125" Height="18" Background="{x:Null}" FontSize="10"/>
+            <TextBlock x:Name="txbBrandCar" HorizontalAlignment="Left" Margin="110,125,0,0" TextWrapping="Wrap" Text="Toyota" VerticalAlignment="Top" Width="122" Height="16" Background="{x:Null}" TextBlock.FontSize="10"/>
+            <TextBlock x:Name="txbDate" HorizontalAlignment="Left" Margin="110,147,0,0" TextWrapping="Wrap" Text="10/02/2023 10:25:13 PM" VerticalAlignment="Top" Width="125" Height="19" Background="{x:Null}" TextBlock.FontSize="10"/>
+            <TextBlock x:Name="txbRepair1" Margin="152,188,16,0" TextWrapping="Wrap" Text="kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk" FontSize="10" Background="{x:Null}" Height="16" VerticalAlignment="Top"/>
+            <TextBlock Margin="26,271,182,0" TextAlignment="Center" TextWrapping="Wrap" Text="Repuestos" VerticalAlignment="Top" Background="#FFBDBDBD" Foreground="Black" Height="19" FontWeight="Bold"/>
+            <TextBlock x:Name="txbSpare1" Margin="26,0,182,0" TextWrapping="Wrap" Text="Repuesto 1" VerticalAlignment="Center" Height="26" Background="{x:Null}" FontSize="10" TextAlignment="Center"/>
+
+            <Rectangle Height="2" Margin="6,71,6,0" Stroke="Black" VerticalAlignment="Top" Fill="Black"/>
+            <TextBlock HorizontalAlignment="Left" Margin="274,103,0,0" TextWrapping="Wrap" Text="Teléfono :" VerticalAlignment="Top" FontSize="10" FontWeight="Bold" Height="18" Width="51"/>
+            <TextBlock HorizontalAlignment="Left" Margin="274,125,0,0" TextWrapping="Wrap" Text="Modelo Auto :" VerticalAlignment="Top" FontSize="10" FontWeight="Bold" Height="16" Width="69"/>
+            <TextBlock x:Name="txbPhone" HorizontalAlignment="Left" Margin="356,102,0,0" TextWrapping="Wrap" Text="Steven Garita Morales" VerticalAlignment="Top" Width="119" Height="18" Background="{x:Null}" FontSize="10"/>
+            <TextBlock x:Name="txbModelCar" HorizontalAlignment="Left" Margin="356,124,0,0" TextWrapping="Wrap" Text="Toyota" VerticalAlignment="Top" Width="74" Height="16" Background="{x:Null}" TextBlock.FontSize="10"/>
+            <Rectangle Height="2" Margin="6,164,6,0" Stroke="Black" VerticalAlignment="Top" Fill="Black"/>
+            <TextBlock HorizontalAlignment="Center" Margin="0,169,0,0" TextWrapping="Wrap" Text="DETALLES DE LA REPARACIÓN" VerticalAlignment="Top" FontWeight="Bold" Height="19" Width="158" TextAlignment="Center" FontSize="11"/>
+            <TextBlock HorizontalAlignment="Left" Margin="23,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="10" FontWeight="Bold" Height="18" Width="128" Text="Reparaciones a Realizar :"></TextBlock>
+            <TextBlock Margin="348,271,16,0" TextAlignment="Center" TextWrapping="Wrap" Text="Precio" VerticalAlignment="Top" Background="#FFBDBDBD" Foreground="Black" Height="19" FontWeight="Bold" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.487"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock x:Name="txbPrice1" Margin="348,0,16,0" TextWrapping="Wrap" VerticalAlignment="Center" Height="26" Background="{x:Null}" FontSize="10" TextAlignment="Center" Width="136"/>
+            <TextBlock x:Name="txbSpare2" Margin="26,323,182,0" TextWrapping="Wrap" Text="Repuesto 1" VerticalAlignment="Top" Height="26" Background="{x:Null}" FontSize="10" TextAlignment="Center"/>
+            <TextBlock x:Name="txbPrice2" Margin="348,323,16,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Background="{x:Null}" FontSize="10" TextAlignment="Center" Width="136"/>
+            <TextBlock x:Name="txbSpare3" Margin="26,349,182,0" TextWrapping="Wrap" Text="Repuesto 1" VerticalAlignment="Top" Height="27" Background="{x:Null}" FontSize="10" TextAlignment="Center"/>
+            <TextBlock x:Name="txbPrice3" Margin="348,349,16,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Background="{x:Null}" FontSize="10" TextAlignment="Center" Width="136"/>
+            <TextBlock x:Name="txbSpare4" Margin="26,377,182,0" TextWrapping="Wrap" Text="Repuesto 1" VerticalAlignment="Top" Height="28" Background="{x:Null}" FontSize="10" TextAlignment="Center"/>
+            <TextBlock x:Name="txbPrice4" Margin="348,377,16,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Background="{x:Null}" FontSize="10" TextAlignment="Center" Width="136"/>
+            <TextBlock x:Name="txbSpare5" Margin="26,405,182,0" TextWrapping="Wrap" Text="Repuesto 1" VerticalAlignment="Top" Height="25" Background="{x:Null}" FontSize="10" TextAlignment="Center"/>
+            <TextBlock x:Name="txbPrice5" Margin="348,405,16,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" Background="{x:Null}" FontSize="10" TextAlignment="Center" Width="136"/>
+            <TextBlock x:Name="txbSpare6" Margin="26,432,182,0" TextWrapping="Wrap" Text="Repuesto 1" VerticalAlignment="Top" Height="25" Background="{x:Null}" FontSize="10" TextAlignment="Center"/>
+            <TextBlock x:Name="txbPrice6" Margin="348,432,16,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" Background="{x:Null}" FontSize="10" TextAlignment="Center" Width="136"/>
+            <TextBlock x:Name="txbSpare7" Margin="26,459,182,0" TextWrapping="Wrap" Text="Repuesto 1" VerticalAlignment="Top" Height="27" Background="{x:Null}" FontSize="10" TextAlignment="Center"/>
+            <TextBlock x:Name="txbPrice7" Margin="348,459,16,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Background="{x:Null}" FontSize="10" TextAlignment="Center" Width="136"/>
+            <TextBlock x:Name="txbSpare8" Margin="26,486,182,0" TextWrapping="Wrap" Text="Repuesto 1" VerticalAlignment="Top" Height="27" Background="{x:Null}" FontSize="10" TextAlignment="Center"/>
+            <TextBlock x:Name="txbPrice8" Margin="348,486,16,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Background="{x:Null}" FontSize="10" TextAlignment="Center" Width="136"/>
+            <TextBlock x:Name="txbSpare9" Margin="26,513,182,0" TextWrapping="Wrap" Text="Repuesto 1" VerticalAlignment="Top" Height="26" Background="{x:Null}" FontSize="10" TextAlignment="Center"/>
+            <TextBlock x:Name="txbPrice9" Margin="348,513,16,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Background="{x:Null}" FontSize="10" TextAlignment="Center" Width="136"/>
+            <TextBlock x:Name="txbSpare10" Margin="26,540,182,0" TextWrapping="Wrap" Text="Repuesto 1" VerticalAlignment="Top" Height="26" Background="{x:Null}" FontSize="10" TextAlignment="Center"/>
+            <TextBlock x:Name="txbPrice10" Margin="348,540,16,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Background="{x:Null}" FontSize="10" TextAlignment="Center" Width="136"/>
+            <TextBlock x:Name="txtClient_Copy29" Margin="26,571,182,0" TextWrapping="Wrap" Text="Mano Obra" Background="#FFBDBDBD" FontSize="10" TextAlignment="Center" Height="18" VerticalAlignment="Top" FontWeight="Bold"/>
+            <TextBlock x:Name="txbLabor" Margin="348,571,16,0" TextWrapping="Wrap" Text="Repuesto 1" VerticalAlignment="Top" Height="18" Background="#FFBDBDBD" FontSize="10" TextAlignment="Center" Width="136" FontWeight="Bold"/>
+            <TextBlock x:Name="txtClient_Copy31" Margin="26,597,182,0" TextWrapping="Wrap" Text="Total General" Background="#FFFFADAD" FontSize="10" TextAlignment="Center" Height="18" VerticalAlignment="Top" FontWeight="Bold"/>
+            <TextBlock x:Name="txbTotal" Margin="348,597,16,0" TextWrapping="Wrap" Text="Repuesto 1" VerticalAlignment="Top" Height="18" Background="#FFFFADAD" FontSize="10" TextAlignment="Center" Width="136" FontWeight="Bold"/>
+            <Grid x:Name="grdButton" Margin="0,622,0,-29" Background="#FFA9A8A8" >
+                <Button x:Name="btnPrint" Content="PDF" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="388,0,0,0" Width="79" Background="#FFFF1616" BorderBrush="#FFA90000" Foreground="White" FontWeight="Bold" Click="btnPrint_Click" Height="25" VerticalAlignment="Center" FontSize="10">
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Width="78" Height="25"
+                    CornerRadius="8"
+                    Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+                        HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <Button x:Name="btnCancel" Content="CANCELAR" HorizontalAlignment="Left" Margin="283,0,0,0" Click="btnCancel_Click"  VerticalAlignment="Center" Height="25" Width="78" FontSize="10" >
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Width="78" Height="25"
+                    CornerRadius="8"
+                    Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+                        HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </Grid>
+            <TextBlock x:Name="txbRepair2" Margin="152,202,16,0" TextWrapping="Wrap" Text="kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk" FontSize="10" Background="{x:Null}" Height="16" VerticalAlignment="Top"/>
+            <TextBlock x:Name="txbRepair3" Margin="152,217,16,0" TextWrapping="Wrap" Text="kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk" FontSize="10" Background="{x:Null}" Height="16" VerticalAlignment="Top"/>
+            <TextBlock x:Name="txbRepair4" Margin="152,231,16,0" TextWrapping="Wrap" Text="kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk" FontSize="10" Background="{x:Null}" Height="16" VerticalAlignment="Top"/>
+            <TextBlock x:Name="txbRepair5" Margin="152,245,16,0" TextWrapping="Wrap" Text="kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk" FontSize="10" Background="{x:Null}" Height="16" VerticalAlignment="Top"/>
+        </Grid>
+    </StackPanel>
+</Window>
