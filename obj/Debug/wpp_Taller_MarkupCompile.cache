@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\garis\Documents\Taller\wpp_Taller\App.xaml
-13-1136652693
+141943699475
 
-231410930196
+251243235942
 14-1701011695
-Pages\pCarPending.xaml;Pages\pCarReady.xaml;Pages\pClients.xaml;Pages\pInventory.xaml;Pages\pInvetorySoldReport.xaml;Pages\pProforms.xaml;Pages\pReports.xaml;Pages\pUsers.xaml;Pages\pCarsReparedReport.xaml;View\MainWindow.xaml;View\LoginView.xaml;View\ModalView.xaml;View\ReportCarsPDF.xaml;
+Pages\pCarPending.xaml;Pages\pCarReady.xaml;Pages\pClients.xaml;Pages\pInventory.xaml;Pages\pInvetorySoldReport.xaml;Pages\pProforms.xaml;Pages\pReports.xaml;Pages\pUsers.xaml;Pages\pCarsReparedReport.xaml;View\MainWindow.xaml;View\LoginView.xaml;View\ModalView.xaml;View\ReportCarsPDF.xaml;View\ReportProfromPDF.xaml;
 
-False
+True
 
